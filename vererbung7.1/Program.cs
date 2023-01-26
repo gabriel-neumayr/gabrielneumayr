@@ -12,14 +12,16 @@
             CPunkt p2 = new CPunkt(4, 3);
             CPunkt p3 = new CPunkt(5, 8);
             CPunkt p4 = new CPunkt(1, 8);
-
-
-
-
-            CGrundForm.SetPunkt(p1, p2, p3, p4, viereck1.Name);
-            
-
             CPunkt p1kreis = new CPunkt(1, 3);
+
+            Console.WriteLine("Das Viereck hat die Bezeichnug: " + viereck1.Name);
+
+            viereck1.SetPunkt(p1, p2, p3, p4);
+
+            ö
+            kreis1.SetPunktRadius(kreis1, p1kreis);
+
+           
 
          
         }

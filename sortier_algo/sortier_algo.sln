@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sortier_algo", "sortier_algo.csproj", "{521CA053-F819-4714-A939-3CA9DFFC5128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521CA053-F819-4714-A939-3CA9DFFC5128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521CA053-F819-4714-A939-3CA9DFFC5128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521CA053-F819-4714-A939-3CA9DFFC5128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521CA053-F819-4714-A939-3CA9DFFC5128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A765319-A01C-4D05-A556-95E52FB44929}
+	EndGlobalSection
+EndGlobal

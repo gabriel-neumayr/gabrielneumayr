@@ -4,9 +4,9 @@ public class CGrundForm
 {
 	public string Name;
 
-	public void SetPunkt(CPunkt p1, CPunkt p2, CPunkt p3, CPunkt p4, Viereck viereck1)
+	public void SetPunkt(CPunkt p1, CPunkt p2, CPunkt p3, CPunkt p4)
     {
-		Console.WriteLine("Das Viereck hat die Bezeichnug: " + viereck1.Name);
+		
 		Console.WriteLine("(" + p1.x + "|" + p1.y + ")");
 		Console.WriteLine("(" + p2.x + "|" + p2.y + ")");
 		Console.WriteLine("(" + p3.x + "|" + p3.y + ")");
@@ -16,7 +16,7 @@ public class CGrundForm
 
 	}
 
-	public void SetPunktRadius(Kreis kreis1, CPunkt p1kreis)
+	public void SetPunktRadius(Kreis kreis1,CPunkt p1kreis)
     {
 		Console.WriteLine("Der Kreis hat die Bezeichnung: " + kreis1.Name);
 		Console.WriteLine("(" + p1kreis.x + "|" + p1kreis.y + ")");
@@ -41,7 +41,6 @@ public class Kreis : CGrundForm
 	public Kreis(string Name) : base(Name)
 	{
 		Name = "Kreis";
-	
 
 
 	}
